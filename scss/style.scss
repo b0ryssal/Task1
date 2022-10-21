@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
 @font-face {
-    font-family: 'PostNoBillsColombo';
-    src: url(/fonts/PostNoBillsColombo-Regular.ttf);
+    font-family: "PostNoBillsColombo";
+    src: url("../fonts/PostNoBillsColombo-Regular.ttf");
 }
 body{
     padding: 0;
@@ -87,7 +87,7 @@ body{
 
 }
 .navigation__logo{
-    font-family: 'PostNoBillsColombo';
+    font-family: PostNoBillsColombo;
     font-weight: 700;
     font-size: 36px;
     a{
@@ -144,9 +144,10 @@ body{
     }
 }
 .first__screen{
+    width: 100%;
    
     height: 810px;
-    background: url(/images/Rectangle\ 3.jpg) no-repeat center;
+    background: url(../images/Rectangle\ 3.jpg) no-repeat center;
     background-size: cover;
    
 }
@@ -163,7 +164,7 @@ body{
         color: #FFFFFF;
         font-weight: 700;
         font-size: 64px;
-        font-family: 'PostNoBillsColombo';
+        font-family: PostNoBillsColombo;
         border-bottom:2px solid #FFFFFF;       
 
 
