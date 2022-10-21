@@ -1,3 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap");
+@font-face {
+  font-family: "PostNoBillsColombo";
+  src: url(/fonts/PostNoBillsColombo-Regular.ttf);
+}
 body {
-  background-color: bisque;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.header__panel {
+  background: #000000;
+  height: 44px;
+  width: 100%;
+}
+
+.panel__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #969696;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 12px;
+}
+
+.time__work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.time__work ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 15px;
+}
+.time__work ul li {
+  border-right: 1px #969696 solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.time__work ul li:first-child {
+  padding-left: 0;
+}
+.time__work ul li:last-child {
+  border: 0;
+}
+
+.registration__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration__panel ul {
+  padding-left: 19px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration__panel ul li {
+  padding-left: 5px;
+}
+.registration__panel ul li a {
+  color: #969696;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.registration__panel ul li:first-child {
+  padding-left: 0;
+}
+
+.navigation {
+  height: 80px;
+  width: 100%;
+  background: #0F0F0F;
+  color: #FFFFFF;
+}
+
+.navigation__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__logo {
+  font-family: "PostNoBillsColombo";
+  font-weight: 700;
+  font-size: 36px;
+}
+.navigation__logo a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu li .menu__link {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #969696;
+  text-decoration: none;
+  font-family: "PT Sans Caption", sans-serif;
+  padding: 31px 21px 31px 18px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.menu li .menu__link:hover {
+  color: #FFFFFF;
+  background: #1F1F1F;
+  padding: 31px 21px 31px 18px;
+}
+.menu li .menu__search {
+  margin-left: 40px;
+  color: #969696;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.menu li .menu__search:hover {
+  color: #FFFFFF;
+}
+.menu li .menu__cart {
+  margin-left: 18px;
+  color: #969696;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.menu li .menu__cart:hover {
+  color: #FFFFFF;
+}
+
+.first__screen {
+  width: 100%;
+  height: 810px;
+  background: url(/images/Rectangle\ 3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.first__screen__logo {
+  border: 4px solid #FFFFFF;
+  width: 320px;
+  height: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.first__screen__logo h1 {
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "PostNoBillsColombo";
+  border-bottom: 2px solid #FFFFFF;
 }
