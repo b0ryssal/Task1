@@ -422,3 +422,61 @@ body{
         
     }
 }
+.fourth__screen{
+    width: 100vw;
+    height: 1289px;
+    background-color: #000000;
+    h1{
+        margin: 0;
+        color: #FFFFFF;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: PlayfairDisplayRegular;
+        font-weight: 700;
+        margin-bottom: 39.5px;
+    }
+    hr{
+        width: 120px;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+
+
+    }
+
+}
+.fourth__screen__label{
+    width: 396px;
+    height: 87.5px;
+    margin: 0 auto;
+    margin-bottom: 81.5px;
+    padding-top: 120px;
+    
+}
+.fourth__screen__catalogue{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 23px;
+    grid-row-gap: 40px;
+    width: 1110px;
+    margin: 0 auto;
+    .catalogue__carts{
+        width: 260px;
+        height: 405px;
+        .catalogue__element__marker{
+            width: 260px;
+            height: 325px;
+            background: #191B1C;
+            img{
+                padding: 0px 22px 0px 23px;
+
+            }
+
+
+        }
+        
+}
+
+
+}
