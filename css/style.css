@@ -189,6 +189,7 @@ body {
 
 .first__screen {
   background: url(../images/Rectangle\ 3.jpg) no-repeat center;
+  background-position: top center;
   background-size: cover;
   padding-top: 160px;
   padding-bottom: 150px;
@@ -302,6 +303,7 @@ body {
 .new__collection {
   width: 50%;
   background: url(../images/Rectangle\ 8.jpg) no-repeat center;
+  background-position: top center;
   background-size: cover;
   padding-bottom: 100px;
   padding-top: 484px;
@@ -351,9 +353,8 @@ body {
 
 .photo__demo {
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: url(../images/Rectangle\ 9.jpg) no-repeat center;
+  background: url(../images/Rectangle\ 9.jpg) no-repeat;
+  background-position: top center;
   background-size: cover;
   max-width: 936px;
 }
@@ -588,7 +589,10 @@ body {
 }
 
 .part__history__text {
-  padding: 48px 157px 180px 146px;
+  max-width: 628px;
+  margin: 0 auto;
+  margin-top: 53px;
+  margin-bottom: 175px;
   color: #FFFFFF;
 }
 .part__history__text h1 {
@@ -644,7 +648,10 @@ body {
 }
 
 .part__new__text {
-  padding: 48px 157px 180px 146px;
+  max-width: 628px;
+  margin: 0 auto;
+  margin-top: 53px;
+  margin-bottom: 175px;
   color: #FFFFFF;
 }
 .part__new__text h1 {
@@ -700,7 +707,10 @@ body {
 }
 
 .part__info__text {
-  padding: 53px 158px 175px 145px;
+  max-width: 628px;
+  margin: 0 auto;
+  margin-top: 53px;
+  margin-bottom: 175px;
   color: #FFFFFF;
 }
 .part__info__text h1 {
@@ -794,6 +804,7 @@ body {
 
 .footer__manage__panel {
   background: url(../images/Rectangle\ 15.jpg) no-repeat center;
+  background-position: top center;
   background-size: cover;
   width: 100%;
 }
