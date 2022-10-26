@@ -770,6 +770,12 @@ body {
   background-color: #000000;
 }
 
+.partner {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
 .our__partners__label {
   padding-top: 89.67px;
   width: 320px;
@@ -789,17 +795,6 @@ body {
   height: 0px;
   border: 1px solid #FFFFFF;
   background-color: #FFFFFF;
-}
-
-.our__partners__image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
-  max-width: 1385px;
-  margin: 0 auto;
-  padding-top: 66px;
-  padding-bottom: 106px;
 }
 
 .footer__manage__panel {
