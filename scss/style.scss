@@ -254,8 +254,8 @@ body{
     background: #000000;
 }
 .past__seasons__catalogue{
-    width: 880px;
-    height: 405px;
+    max-width: 880px;
+    height: auto;
     display: flex;
     gap: 50px;
     margin: 0 auto;
@@ -290,6 +290,33 @@ body{
     }
   
 
+}
+.catalogue__element-past{
+    width: 260px;
+        height: 325px;
+        background: #191B1C;
+    
+        img {
+            padding: 27px 22px 34px 23px;
+    
+        }
+    
+        p {
+            color: #FFFFFF;
+    
+            font-size: 18px;
+            font-family: PlayfairDisplayRegular;
+            margin: 25px 0px 10px 0px;
+    
+    
+        }
+    
+        span {
+            color: #D0D0D0;
+    
+            font-size: 16px;
+            font-family: PlayfairDisplay;
+        }
 }
 .new__collection{
 
@@ -428,8 +455,9 @@ body{
 }
 .fourth__screen{
     width: 100%;
-    height: 1289px;
+    height: auto;
     background-color: #000000;
+    padding-bottom: 150px;
     h1{
         margin: 0;
         color: #FFFFFF;
@@ -457,14 +485,8 @@ body{
     padding-top: 120px;
     
 }
-.fourth__screen__catalogue{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 23px;
-    grid-row-gap: 40px;
-    width: 1110px;
-    margin: 0 auto;
+.swiper2{
+   
     a{
         text-decoration: none;
         color: #FFFFFF;
@@ -538,7 +560,7 @@ body{
     width: 100%;
     background-color: #0F0F0F;
     .fifth__screen__label{
-        width: 1172px;
+        max-width: 1172px;
         height: 100px;
         padding-top: 63.32px;
         margin: 0 auto;

@@ -21,3 +21,24 @@ new Swiper('.swiper', {
    
     
 });
+new Swiper('.swiper2', {
+
+    breakpoints: {
+   
+    1180: {
+        slidesPerView: 1,
+    
+        
+        
+     
+    },
+    1330: {
+      slidesPerView: 4,
+    
+      
+      
+    }
+  }
+   
+    
+});

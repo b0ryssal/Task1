@@ -42,6 +42,44 @@
 
   
 }
+.swiper2 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+
+  
+
+  overflow: hidden;
+
+
+}
+.wrapper2{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+@media screen and (max-width:1180px) {
+  .wrapper2 {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  .swiper2{
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+
+}
+
 .swiper-vertical > .swiper-wrapper {
   flex-direction: column;
 }
@@ -54,6 +92,7 @@
   transition-property: transform;
   box-sizing: content-box;
 }
+
 .swiper-android .swiper-slide,
 .swiper-wrapper {
   transform: translate3d(0px, 0, 0);
