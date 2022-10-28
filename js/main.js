@@ -42,3 +42,14 @@ new Swiper('.swiper2', {
    
     
 });
+
+
+const burger = document.querySelector('.header__burger');
+if(burger){
+    const menuBody=document.querySelector('.header__bar');
+    burger.addEventListener("click", function(e){
+        document.body.classList.toggle('_lock');
+        burger.classList.toggle('_active');
+        menuBody.classList.toggle('_active');
+    });
+}

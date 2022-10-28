@@ -40,11 +40,16 @@
         
         margin: 0 auto;
         margin-top: 100px;
+        padding: 0;
        
     }
     .catalogue__element-past{
         margin-bottom: 100px;
 
+    }
+    .photo__demo{
+        max-width: 960px;
+        background-position: center top;
     }
 }
 @media screen and (max-width:1195px) {
@@ -68,3 +73,194 @@
 }
 
 
+@media screen and (max-width:1171px) {
+    .manage__container {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        h1{
+            padding: 20px 0 20px 0;
+        }
+        
+    }
+    .manage__panel__about{
+        margin:  0 auto;
+        p{
+            text-align: center;
+            padding-bottom: 0;
+        }
+        h1{
+            text-align: center;
+        }
+    }
+    .manage__panel__category{
+        margin: 0 auto;
+        h1{
+            text-align: center;
+        }
+        .stroke{
+            justify-content: center;
+        }
+    }
+    .manage__panel__subscribe{
+        margin: 0 auto;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    
+
+}
+@media screen and (max-width:708px){
+    .header__burger {
+        position: relative;
+        z-index: 9999;
+      
+        display: block;
+    
+        width: 30px;
+        height: 18px;
+    
+        cursor: pointer;
+    
+        span {
+            top: 50%;
+            transform: scale(1) translate(0px, -50%);
+            
+        }
+    
+    }
+    .header__burger span,
+    .header__burger::before,
+    .header__burger::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+       
+        transition: all 0.3s ease 0s;
+        border-radius: 20px;
+        background-color: white;
+    
+    }
+        .header__burger::before,
+        .header__burger::after {
+            content: "";
+    
+        }
+    
+        .header__burger::before {
+            top: 0;
+        }
+    
+        .header__burger::after {
+            bottom: 0;
+        }
+        .header__bar {
+            position: fixed;
+            top: 50px;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: #0F0F0F;                      
+            z-index: 8888;
+            transition: left 0.3s ease 0s;
+        }
+        .header__bar._active {
+            left: 0;
+        }
+        
+        .header__burger._active {
+            span {
+                transform: scale(0) translate(0px, -50%);
+            }
+        
+        }     
+        .header__burger._active::before {
+            top: 50%;
+            transform: rotate(-45deg) translate(0px, -50%);
+        
+        }
+        
+        .header__burger._active::after {
+            bottom: 50%;
+            transform: rotate(45deg) translate(0px, 50%);
+        
+        }
+        
+        
+        
+        body._lock {
+            overflow-y: hidden;
+        
+        }
+        .navigation__logo{
+            position: relative;
+            z-index: 9999;
+        }
+        .menu{
+            display: block;
+        }
+        .navigation__container{
+            max-width: 600px;
+        }
+    
+        
+   
+       
+      
+    
+      
+    
+        
+
+    
+}
+@media screen and(max-width:669px){
+    .first__screen__text{
+        max-width: 400px;
+            
+    }
+    .collection__section__text {
+        max-width: 400px;
+    }
+    .part__info__text {
+        max-width: 400px;
+        height: auto;
+        .button__hashtag {
+            display: block;
+            
+            p{
+                padding-top: 38px;
+            }
+            }
+    }
+    .part__new__text {
+        max-width: 400px;
+        height: auto;
+        .button__hashtag {
+                display: block;
+                p {
+                    padding-top: 38px;
+                }
+            }
+    }
+    .part__history__text{
+        max-width: 400px;
+        height: auto;
+        .button__hashtag {
+                display: block;
+                p {
+                    padding-top: 38px;
+                }
+            }
+    }
+     
+    
+        
+
+    
+}

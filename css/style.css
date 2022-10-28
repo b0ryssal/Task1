@@ -110,7 +110,7 @@ body {
 .navigation {
   height: 80px;
   width: 100%;
-  background: #0F0F0F;
+  background-color: #0F0F0F;
   color: #FFFFFF;
 }
 
@@ -127,6 +127,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__burger {
+  display: none;
 }
 
 .navigation__logo {
@@ -223,7 +227,7 @@ body {
 }
 
 .first__screen__text {
-  width: 730px;
+  max-width: 730px;
   height: 96px;
   margin: 0 auto;
   padding-top: 80px;
@@ -275,6 +279,7 @@ body {
   gap: 50px;
   margin: 0 auto;
   margin-top: 100px;
+  padding-bottom: 93px;
 }
 .past__seasons__catalogue a {
   text-decoration: none;
@@ -385,7 +390,7 @@ body {
 }
 
 .collection__section__text {
-  width: 628px;
+  max-width: 628px;
   margin: 0 auto;
   margin-top: 100px;
   padding-bottom: 98px;

@@ -88,12 +88,13 @@ body{
 .navigation{
     height: 80px;
     width: 100%;
-    background: #0F0F0F;
+    background-color: #0F0F0F;
     color: #FFFFFF;
 
 }
 .navigation__container{
     max-width: 1110px;
+   
     margin: 0 auto;
     display: flex;
     height: inherit;
@@ -101,6 +102,9 @@ body{
     align-items: center;
 
 
+}
+.header__burger{
+    display: none;
 }
 .navigation__logo{
     font-family: PostNoBillsColombo;
@@ -201,7 +205,7 @@ body{
     }
 }
 .first__screen__text{
-    width: 730px;
+    max-width: 730px;
     height: 96px;
     margin: 0 auto;
     padding-top: 80px;
@@ -260,6 +264,7 @@ body{
     gap: 50px;
     margin: 0 auto;
     margin-top: 100px;
+    padding-bottom: 93px;
     a{
         text-decoration: none;
     }
@@ -392,7 +397,7 @@ body{
     width: 100%;
 }
 .collection__section__text{
-    width: 628px;
+    max-width: 628px;
    
     
     margin: 0 auto;
@@ -500,6 +505,7 @@ body{
         span{
             font-size: 16px;
             font-family: PlayfairDisplay;
+            
 
 
 
