@@ -32,24 +32,13 @@
     
 
 }
-@media screen and (max-width:960px) {
-    .past__seasons__catalogue{
-        display: block;
-        
-        max-width: 260px;
-        
-        margin: 0 auto;
-        margin-top: 100px;
-        padding: 0;
-       
-    }
-    .catalogue__element-past{
-        margin-bottom: 100px;
 
-    }
-    .photo__demo{
-        max-width: 960px;
-        background-position: center top;
+@media screen and (max-width:1710px) {
+    .part{
+        display: block;
+        img{
+            width: 100%;
+        }
     }
 }
 @media screen and (max-width:1195px) {
@@ -61,18 +50,6 @@
 
     
 }
-
-
-@media screen and (max-width:1710px) {
-    .part{
-        display: block;
-        img{
-            width: 100%;
-        }
-    }
-}
-
-
 @media screen and (max-width:1171px) {
     .manage__container {
         display: block;
@@ -83,6 +60,7 @@
         }
         
     }
+    
     .manage__panel__about{
         margin:  0 auto;
         p{
@@ -114,7 +92,56 @@
     
 
 }
+
+@media screen and (max-width:1104px){
+    .footer__line__container{
+        max-width: 960px;
+    }
+    .navigation__container{
+        max-width: 960px;
+    }
+    .panel__container{
+        max-width: 960px;
+    }
+
+}
+@media screen and (max-width:960px) {
+    .footer__line__container{
+        max-width: 708px;
+    }
+    .navigation__container{
+        max-width: 708px;
+    }
+    .panel__container{
+        max-width: 708px;
+    }
+    .past__seasons__catalogue{
+        display: block;
+        
+        max-width: 260px;
+        
+        margin: 0 auto;
+        margin-top: 100px;
+        padding: 0;
+       
+    }
+    .catalogue__element-past{
+        margin-bottom: 100px;
+
+    }
+    .photo__demo{
+        max-width: 960px;
+        background-position: center top;
+    }
+}
 @media screen and (max-width:708px){
+    .footer__line__container{
+        max-width: 600px;
+    }
+    .panel__container{
+        max-width: 600px;
+    }
+    
     .header__burger {
         position: relative;
         z-index: 9999;
@@ -203,13 +230,286 @@
         }
         .menu{
             display: block;
+            max-width: 200px;
+            margin: 0 auto;
+            margin-top: 100px;
+          
+            li{
+                margin-top: 40px;
+                text-align: center;
+                
+                .menu__link:hover{
+                    color: #FFFFFF;
+                    background-color: #0F0F0F;
+                   
+                }
+                .menu__link{
+                    padding: 0;
+                    
+                }
+                .menu__search{
+        
+                    margin-left: 0;
+                }
+                .menu__cart{
+                    margin-left: 0;
+                }
+            
+
+            }
         }
         .navigation__container{
             max-width: 600px;
+            
         }
-    
+        @media screen and(max-width:669px){
+            .first__screen__text{
+                max-width: 400px;
+                    
+            }
+            .collection__section__text {
+                max-width: 400px;
+            }
+            .part__info__text {
+                max-width: 400px;
+                height: auto;
+                .button__hashtag {
+                    display: block;
+                    
+                    p{
+                        padding-top: 38px;
+                    }
+                    }
+            }
+            .part__new__text {
+                max-width: 400px;
+                height: auto;
+                .button__hashtag {
+                        display: block;
+                        p {
+                            padding-top: 38px;
+                        }
+                    }
+            }
+            .part__history__text{
+                max-width: 400px;
+                height: auto;
+                .button__hashtag {
+                        display: block;
+                        p {
+                            padding-top: 38px;
+                        }
+                    }
+            }
+             
+            
+                
+        
+            
+        }
+    }
+        
+        
         
    
+
+
+
+
+@media screen and (max-width:596px){
+    .navigation__container{
+        max-width: 450px;
+
+        
+    }
+    .footer__line__container{
+        max-width: 450px;
+    }
+    .panel__container{
+        max-width: 450px;
+        display: block;
+    }
+    .registration__panel{
+        justify-content: center;
+    }
+    .header__panel{
+        height: auto;
+    }
+    .time__work{
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:452px){
+    .navigation__container{
+        max-width: 400px;
+
+        
+    }
+    .navigation__container{
+        max-width: 400px;
+    }
+    .footer__line__container{
+        max-width: 400px;
+        display: block;
+        p{
+            text-align: center;
+            padding-top: 10px;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+           
+        }
+    }
+    .manage__form{
+        display: block;
+        max-width: 186px;
+        margin: 0 auto;
+        a{
+           justify-content: center;
+           margin-top: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width:412px){
+    .part__info__text {
+        max-width: 350px;
+        height: auto;
+        
+    }
+    .part__new__text {
+        max-width: 350px;
+        height: auto;
+        
+    }
+    .part__history__text{
+        max-width: 350px;
+        height: auto;
+       
+    }
+
+}
+@media screen and(max-width: 360px){
+    .navigation__container{
+        max-width: 320px;
+    }
+    .first__screen__logo{
+        max-width: 290px;
+        height: 290px;
+        h1{
+            margin-top: 72px;
+        }
+    }
+    .first__screen__text{
+        max-width: 290px;
+        p{
+            font-size: 14px;
+        }
+    }
+    .fifth__screen{
+            .fifth__screen__label{
+                padding-bottom: 30px;
+                h1{
+                    font-size: 24px;
+                    padding-bottom: 30px;
+                }
+        }
+    }
+    .fourth__screen{
+        h1{
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+    }
+    .fourth__screen__label{
+        margin-bottom: 30px;
+    }
+    .collection__section__text{
+        max-width: 290px;
+        h1{
+            font-size: 24px;
+            padding-bottom: 30px;
+            
+        }
+        hr{
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .new__collection{
+        h1{
+            font-size: 24px;
+            
+        }
+    }
+    .past__seasons__label{
+        padding-top: 80px;
+        h1{
+            font-size: 24px;
+            padding-bottom: 30px;
+        }
+    }
+    .our__partners__label{
+        h1{
+            font-size: 24px;
+            padding-bottom: 30px;
+        }
+    }
+    .past__seasons__catalogue{
+        margin-top: 65px;
+    }
+    .part__info__text {
+        max-width: 290px;
+        height: auto;
+        
+    }
+    .part__new__text {
+        max-width: 290px;
+        height: auto;
+        
+    }
+    .part__history__text{
+        max-width: 290px;
+        height: auto;
+       
+    }
+    .manage__panel__about{
+        max-width: 290px;
+        p{
+            font-size: 12px;
+        }
+    }
+    .manage__panel__subscribe{
+        max-width: 290px;
+        margin: 0 auto;
+        p{
+            font-size: 12px;
+        }
+    }
+  
+    
+
+
+}
+@media screen and(max-width: 395px){
+}
+    
+
+
+
+
+
+
+
+
        
       
     
@@ -218,49 +518,4 @@
         
 
     
-}
-@media screen and(max-width:669px){
-    .first__screen__text{
-        max-width: 400px;
-            
-    }
-    .collection__section__text {
-        max-width: 400px;
-    }
-    .part__info__text {
-        max-width: 400px;
-        height: auto;
-        .button__hashtag {
-            display: block;
-            
-            p{
-                padding-top: 38px;
-            }
-            }
-    }
-    .part__new__text {
-        max-width: 400px;
-        height: auto;
-        .button__hashtag {
-                display: block;
-                p {
-                    padding-top: 38px;
-                }
-            }
-    }
-    .part__history__text{
-        max-width: 400px;
-        height: auto;
-        .button__hashtag {
-                display: block;
-                p {
-                    padding-top: 38px;
-                }
-            }
-    }
-     
-    
-        
 
-    
-}

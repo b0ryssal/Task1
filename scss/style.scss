@@ -47,6 +47,11 @@ body{
             border-right: 1px #969696 solid;
             padding-left: 10px;
             padding-right: 10px;
+            font-family: PT Sans;
+            a{
+                color: #969696;
+                text-decoration: none;
+            }
             
         }
         li:first-child{
@@ -177,7 +182,7 @@ body{
 }
 .first__screen__logo{
     border: 4px solid #FFFFFF;
-    width: 320px;
+    max-width: 320px;
     height: 320px;
     margin: 0 auto;
     h1{
@@ -221,7 +226,7 @@ body{
 }
 .past__seasons__label{
     padding-top: 93px;
-    width: 376px;
+    max-width: 376px;
     height: 39px;
     margin: 0 auto;
     
@@ -446,7 +451,7 @@ body{
 
     }
     div{
-        width: 298px;
+        max-width: 270px;
         margin: 0 auto;
         
     }
@@ -483,7 +488,7 @@ body{
 
 }
 .fourth__screen__label{
-    width: 396px;
+    max-width: 396px;
     height: 87.5px;
     margin: 0 auto;
     margin-bottom: 81.5px;
@@ -567,7 +572,7 @@ body{
     background-color: #0F0F0F;
     .fifth__screen__label{
         max-width: 1172px;
-        height: 100px;
+        height: auto;
         padding-top: 63.32px;
         margin: 0 auto;
         padding-bottom: 56.97px;
@@ -791,7 +796,7 @@ body{
 }
 .our__partners__label{
     padding-top: 89.67px;
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
     h1{
         margin: 0;

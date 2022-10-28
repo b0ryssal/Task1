@@ -30,35 +30,17 @@
     height: 600px;
   }
 }
-@media screen and (max-width: 960px) {
-  .past__seasons__catalogue {
-    display: block;
-    max-width: 260px;
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 0;
-  }
-
-  .catalogue__element-past {
-    margin-bottom: 100px;
-  }
-
-  .photo__demo {
-    max-width: 960px;
-    background-position: center top;
-  }
-}
-@media screen and (max-width: 1195px) {
-  .cart img {
-    width: 40%;
-  }
-}
 @media screen and (max-width: 1710px) {
   .part {
     display: block;
   }
   .part img {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1195px) {
+  .cart img {
+    width: 40%;
   }
 }
 @media screen and (max-width: 1171px) {
@@ -104,7 +86,58 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1104px) {
+  .footer__line__container {
+    max-width: 960px;
+  }
+
+  .navigation__container {
+    max-width: 960px;
+  }
+
+  .panel__container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer__line__container {
+    max-width: 708px;
+  }
+
+  .navigation__container {
+    max-width: 708px;
+  }
+
+  .panel__container {
+    max-width: 708px;
+  }
+
+  .past__seasons__catalogue {
+    display: block;
+    max-width: 260px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .catalogue__element-past {
+    margin-bottom: 100px;
+  }
+
+  .photo__demo {
+    max-width: 960px;
+    background-position: center top;
+  }
+}
 @media screen and (max-width: 708px) {
+  .footer__line__container {
+    max-width: 600px;
+  }
+
+  .panel__container {
+    max-width: 600px;
+  }
+
   .header__burger {
     position: relative;
     z-index: 9999;
@@ -189,13 +222,33 @@
 
   .menu {
     display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .menu li {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .menu li .menu__link:hover {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+  }
+  .menu li .menu__link {
+    padding: 0;
+  }
+  .menu li .menu__search {
+    margin-left: 0;
+  }
+  .menu li .menu__cart {
+    margin-left: 0;
   }
 
   .navigation__container {
     max-width: 600px;
   }
 }
-@media screen and (max-width: 669px) {
+@media screen and (max-width: 708px) and (max-width: 669px) {
   .first__screen__text {
     max-width: 400px;
   }
@@ -235,5 +288,191 @@
   }
   .part__history__text .button__hashtag p {
     padding-top: 38px;
+  }
+}
+@media screen and (max-width: 596px) {
+  .navigation__container {
+    max-width: 450px;
+  }
+
+  .footer__line__container {
+    max-width: 450px;
+  }
+
+  .panel__container {
+    max-width: 450px;
+    display: block;
+  }
+
+  .registration__panel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .header__panel {
+    height: auto;
+  }
+
+  .time__work {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 452px) {
+  .navigation__container {
+    max-width: 400px;
+  }
+
+  .navigation__container {
+    max-width: 400px;
+  }
+
+  .footer__line__container {
+    max-width: 400px;
+    display: block;
+  }
+  .footer__line__container p {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .footer__line__container a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .manage__form {
+    display: block;
+    max-width: 186px;
+    margin: 0 auto;
+  }
+  .manage__form a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .part__info__text {
+    max-width: 350px;
+    height: auto;
+  }
+
+  .part__new__text {
+    max-width: 350px;
+    height: auto;
+  }
+
+  .part__history__text {
+    max-width: 350px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 360px) {
+  .navigation__container {
+    max-width: 320px;
+  }
+
+  .first__screen__logo {
+    max-width: 290px;
+    height: 290px;
+  }
+  .first__screen__logo h1 {
+    margin-top: 72px;
+  }
+
+  .first__screen__text {
+    max-width: 290px;
+  }
+  .first__screen__text p {
+    font-size: 14px;
+  }
+
+  .fifth__screen .fifth__screen__label {
+    padding-bottom: 30px;
+  }
+  .fifth__screen .fifth__screen__label h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .fourth__screen h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .fourth__screen__label {
+    margin-bottom: 30px;
+  }
+
+  .collection__section__text {
+    max-width: 290px;
+  }
+  .collection__section__text h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+  .collection__section__text hr {
+    margin-bottom: 30px;
+  }
+  .collection__section__text p {
+    font-size: 12px;
+  }
+
+  .new__collection h1 {
+    font-size: 24px;
+  }
+
+  .past__seasons__label {
+    padding-top: 80px;
+  }
+  .past__seasons__label h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .our__partners__label h1 {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+
+  .past__seasons__catalogue {
+    margin-top: 65px;
+  }
+
+  .part__info__text {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .part__new__text {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .part__history__text {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .manage__panel__about {
+    max-width: 290px;
+  }
+  .manage__panel__about p {
+    font-size: 12px;
+  }
+
+  .manage__panel__subscribe {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+  .manage__panel__subscribe p {
+    font-size: 12px;
   }
 }
