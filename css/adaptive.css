@@ -225,6 +225,7 @@
     max-width: 200px;
     margin: 0 auto;
     margin-top: 100px;
+    padding-left: 0;
   }
   .menu li {
     margin-top: 40px;
@@ -318,6 +319,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .header__bar {
+    top: 100px;
   }
 }
 @media screen and (max-width: 452px) {
@@ -474,5 +479,14 @@
   }
   .manage__panel__subscribe p {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .panel__container {
+    font-size: 9px;
+  }
+
+  .header__bar {
+    top: 90px;
   }
 }

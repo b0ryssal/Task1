@@ -506,10 +506,12 @@ body{
    
     .catalogue__carts{
         width: 260px;
-        height: 405px;
+        height: auto;
+        padding-bottom: 40px;
         span{
             font-size: 16px;
             font-family: PlayfairDisplay;
+            
             
 
 
@@ -952,6 +954,5 @@ body{
     }
 }
 
-    
     
 

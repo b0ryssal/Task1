@@ -1,15 +1,21 @@
-new Swiper('.swiper', {
-
+const swiper=new Swiper('.swiper', {
+  autoplay: {
+    delay: 3000,
+  },
+ 
     breakpoints: {
    
     960: {
         slidesPerView: 1,
+       
+       
         
      
     },
  
     1200: {
       slidesPerView: 3,
+     
      
     },
  
@@ -21,12 +27,17 @@ new Swiper('.swiper', {
    
     
 });
-new Swiper('.swiper2', {
+const swiper2=new Swiper('.swiper2', {
 
     breakpoints: {
    
     1180: {
         slidesPerView: 1,
+        
+       
+        
+        
+        
     
         
         
@@ -34,6 +45,7 @@ new Swiper('.swiper2', {
     },
     1330: {
       slidesPerView: 4,
+      
     
       
       

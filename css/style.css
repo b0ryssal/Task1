@@ -485,7 +485,8 @@ body {
 }
 .swiper2 .catalogue__carts {
   width: 260px;
-  height: 405px;
+  height: auto;
+  padding-bottom: 40px;
 }
 .swiper2 .catalogue__carts span {
   font-size: 16px;
