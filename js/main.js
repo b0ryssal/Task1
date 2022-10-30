@@ -1,5 +1,9 @@
 
 const swiper=new Swiper('.swiper', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
   
   autoplay: {
     delay: 2500,
@@ -9,10 +13,7 @@ const swiper=new Swiper('.swiper', {
    
     960: {
         slidesPerView: 1,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable:true,
-        },
+       
         
        
        
