@@ -1,5 +1,6 @@
 
 const swiper=new Swiper('.swiper', {
+  
   autoplay: {
     delay: 2500,
   },
@@ -8,6 +9,11 @@ const swiper=new Swiper('.swiper', {
    
     960: {
         slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable:true,
+        },
+        
        
        
         
@@ -29,11 +35,17 @@ const swiper=new Swiper('.swiper', {
     
 });
 const swiper2=new Swiper('.swiper2', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
 
     breakpoints: {
    
     1180: {
         slidesPerView: 1,
+        
         
        
         
@@ -58,7 +70,6 @@ const swiper2=new Swiper('.swiper2', {
    
     
 });
-
 
 const burger = document.querySelector('.header__burger');
 if(burger){
