@@ -37,6 +37,18 @@
   .part img {
     width: 100%;
   }
+
+  .part__info__text {
+    margin-bottom: 53px;
+  }
+
+  .part__new__text {
+    margin-bottom: 53px;
+  }
+
+  .part__history__text {
+    margin-bottom: 53px;
+  }
 }
 @media screen and (max-width: 1195px) {
   .cart img {
