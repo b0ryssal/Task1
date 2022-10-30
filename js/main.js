@@ -4,7 +4,6 @@ const swiper=new Swiper('.swiper', {
     el: '.swiper-pagination',
     clickable:true,
   },
-  
   autoplay: {
     delay: 2500,
   },
@@ -36,6 +35,7 @@ const swiper=new Swiper('.swiper', {
     
 });
 const swiper2=new Swiper('.swiper2', {
+  slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -43,21 +43,7 @@ const swiper2=new Swiper('.swiper2', {
   
 
     breakpoints: {
-   
-    1180: {
-        slidesPerView: 1,
-        
-        
-       
-        
-        
-        
-    
-        
-        
-     
-    },
-    1330: {
+    1181: {
       slidesPerView: 4,
       grid: {
         rows: 2,
