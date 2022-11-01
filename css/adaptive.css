@@ -464,8 +464,7 @@
   .navigation__container {
     max-width: 320px;
   }
-}
-@media screen and (max-width: 360px) {
+
   .fifth__screen .fifth__screen__label {
     padding-bottom: 30px;
   }
