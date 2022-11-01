@@ -52,7 +52,7 @@
       
     }
 }
-@media screen and (max-width:1195px) {
+@media screen and (max-width:1199px) {
     .cart{
         img{
             width: 40%;
@@ -64,6 +64,7 @@
 @media screen and (max-width:1171px) {
     .manage__container {
         display: block;
+        
         padding-top: 20px;
         padding-bottom: 30px;
         h1{
@@ -71,8 +72,13 @@
         }
         
     }
+    .manage__form{
+        max-width: 350px;
+        margin: 0 auto;
+    }
     
     .manage__panel__about{
+        max-width: 550px;
         margin:  0 auto;
         p{
             text-align: center;
@@ -83,6 +89,7 @@
         }
     }
     .manage__panel__category{
+        max-width: 550px;
         margin: 0 auto;
         h1{
             text-align: center;
@@ -92,6 +99,7 @@
         }
     }
     .manage__panel__subscribe{
+        max-width: 550px;
         margin: 0 auto;
         h1{
             text-align: center;
@@ -116,6 +124,7 @@
     }
 
 }
+
 @media screen and (max-width:960px) {
     .footer__line__container{
         max-width: 708px;
@@ -126,16 +135,7 @@
     .panel__container{
         max-width: 708px;
     }
-    .past__seasons__catalogue{
-        display: block;
-        
-        max-width: 260px;
-        
-        margin: 0 auto;
-        margin-top: 100px;
-        padding: 0;
-       
-    }
+    
     .catalogue__element-past{
         margin-bottom: 100px;
 
@@ -144,6 +144,14 @@
         max-width: 960px;
         background-position: center top;
     }
+}
+@media screen and(max-width:727px){
+    .first__screen__text{
+        max-width: 400px;
+            
+    }
+
+    
 }
 @media screen and (max-width:708px){
     .footer__line__container{
@@ -275,10 +283,7 @@
             
         }
         @media screen and(max-width:669px){
-            .first__screen__text{
-                max-width: 400px;
-                    
-            }
+            
             .collection__section__text {
                 max-width: 400px;
             }
@@ -357,7 +362,32 @@
 
 
 }
+@media screen and (max-width:551px){
+    
+    
+    .manage__panel__about{
+        max-width: 400px;
+        margin:  0 auto;
+     
+    }
+    .manage__panel__category{
+        max-width: 400px;
+        margin: 0 auto;
+      
+    }
+    .manage__panel__subscribe{
+        max-width: 400px;
+        margin: 0 auto;
+      
+    }
 
+    
+    
+   
+
+
+
+}
 @media screen and (max-width:452px){
     .navigation__container{
         max-width: 400px;
@@ -411,9 +441,35 @@
     }
 
 }
-@media screen and(max-width: 360px){
-    .navigation__container{
+@media screen and(max-width: 409px) {
+    .manage__panel__about{
         max-width: 320px;
+        margin:  0 auto;
+     
+    }
+    .manage__panel__category{
+        max-width: 320px;
+        margin: 0 auto;
+      
+    }
+    .manage__panel__subscribe{
+        max-width: 320px;
+        margin: 0 auto;
+      
+    }
+    .collection__section__text{
+        max-width: 320px;
+        h1{
+            font-size: 24px;
+            padding-bottom: 30px;
+            
+        }
+        hr{
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 12px;
+        }
     }
     .first__screen__logo{
         max-width: 290px;
@@ -428,6 +484,23 @@
             font-size: 14px;
         }
     }
+    .panel__container{
+        font-size: 9px;
+    }
+    .header__bar{
+        top: 90px;
+    }
+    .navigation__container{
+        max-width: 320px;
+    }
+
+    
+
+    
+}
+@media screen and(max-width: 360px){
+    
+    
     .fifth__screen{
             .fifth__screen__label{
                 padding-bottom: 30px;
@@ -446,20 +519,7 @@
     .fourth__screen__label{
         margin-bottom: 30px;
     }
-    .collection__section__text{
-        max-width: 290px;
-        h1{
-            font-size: 24px;
-            padding-bottom: 30px;
-            
-        }
-        hr{
-            margin-bottom: 30px;
-        }
-        p{
-            font-size: 12px;
-        }
-    }
+    
     .new__collection{
         h1{
             font-size: 24px;

@@ -35,6 +35,7 @@ const swiper=new Swiper('.swiper', {
     
 });
 const swiper2=new Swiper('.swiper2', {
+  
   slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -52,10 +53,22 @@ const swiper2=new Swiper('.swiper2', {
     
       
       
-    }
-  }
+    },
+  },
    
     
+});
+const swiper3=new Swiper('.swiper3', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  slidesPerView:1,
+  breakpoints:{
+  960: {
+    slidesPerView: 3,
+  },
+},
 });
 
 const burger = document.querySelector('.header__burger');
